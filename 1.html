@@ -7,7 +7,17 @@
     <style>
         li{
             list-style: none;
-            float: left; padding: 10px; 
+            float: left; 
+            padding: 50px; 
+            margin: 50px;
+        }
+        strong {
+            font-size:large;
+        }
+        .div2 {
+            background-color:red;
+            width:100%;
+            height:100%;
         }
     </style>
 </head>
@@ -15,7 +25,7 @@
    <div>
         <nav>
             <ul>
-                <li>요원
+                <li><strong>요원</strong>
                     <select name="none" onchange="window.open(value,'_blank');">
                     <optgroup label="타격대">
                         <option value="Zett.html">제트</option> 
@@ -50,7 +60,7 @@
                     </optgroup>
                     </select>
                 </li>
-                <li>맵
+                <li><strong>맵</strong>
                     <select name="none" onchange="window.open(value,'_blank');">
                         
                         <optgroup label="주류">
@@ -82,18 +92,21 @@
                     </select>
                 </li>
                  <li>
-                    비디오
+                    <strong>비디오</strong>
                     <select>
                         <option>이제 여기 들어가면 매드무비 나올거임</option> 
                     </select>
                 </li>
-                 <li>소셜미디어
+                 <li><strong>소셜미디어</strong>
                     <select>
                     <option>대체 왜 ...</option> 
                     </select>
                 </li>
             </ul>
         </nav>
+    </div>
+    <div class="div2">
+        이녀석입니다.
     </div>
 </body>
 </html>
