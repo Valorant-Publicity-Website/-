@@ -7,7 +7,17 @@
     <style>
         li{
             list-style: none;
-            float: left; padding: 10px; 
+            float: left; 
+            padding: 50px; 
+            margin: 50px;
+        }
+        strong {
+            font-size:large;
+        }
+        .div2 {
+            background-color:red;
+            width:100%;
+            height:100%;
         }
     </style>
 </head>
@@ -15,76 +25,88 @@
    <div>
         <nav>
             <ul>
-                <li>요원
-                    <select>
+                <li><strong>요원</strong>
+                    <select name="none" onchange="window.open(value,'_blank');">
                     <optgroup label="타격대">
-                        <option><a href="">제트</a></option> 
-                        <option>레이즈</option> 
-                        <option>피닉스</option> 
-                        <option>레이나</option> 
-                        <option>요루</option> 
-                        <option>네온</option> 
-                        <option>아이소</option> 
+                        <option value="Zett.html">제트</option> 
+                        <option value="Raze.html">레이즈</option> 
+                        <option value="Pheonix.html">피닉스</option> 
+                        <option value="Reyna.html">레이나</option> 
+                        <option value="Yoru.html">요루</option> 
+                        <option value="Neon.html">네온</option> 
+                        <option value="Iso.html">아이소</option> 
                     </optgroup>
                     <optgroup label="척후대">
-                        <option>게코</option> 
-                        <option>브리치</option> 
-                        <option>소바</option> 
-                        <option>스카이</option> 
-                        <option>케이/오</option> 
-                        <option>페이드</option> 
+                        <option value="Gekko.html">게코</option> 
+                        <option value="Breach.html">브리치</option> 
+                        <option value="Sova.html">소바</option> 
+                        <option value="Skye.html">스카이</option> 
+                        <option value="Kayo.html">케이/오</option> 
+                        <option value="Fade.html">페이드</option> 
                     </optgroup>
                     <optgroup label="전략가">
-                        <option>브림스톤</option> 
-                        <option>오멘</option> 
-                        <option>바이퍼</option> 
-                        <option>아스트라</option> 
-                        <option>하버</option> 
+                        <option value="Brimstone.html">브림스톤</option> 
+                        <option value="Omen.html">오멘</option> 
+                        <option value="Viper.html">바이퍼</option> 
+                        <option value="Astra.html">아스트라</option> 
+                        <option value="Harbor.html">하버</option> 
                     </optgroup>
                     <optgroup label="감시자">
-                        <option>데드록</option> 
-                        <option>세이지</option> 
-                        <option>사이퍼</option> 
-                        <option>킬조이</option> 
-                        <option>체임버</option> 
+                        <option value="Deadlock.html">데드록</option> 
+                        <option value="Sage.html">세이지</option> 
+                        <option value="Cypher.html">사이퍼</option> 
+                        <option value="Killjoy.html">킬조이</option> 
+                        <option value="Chamber.html">체임버</option> 
                     </optgroup>
                     </select>
                 </li>
-                <li>맵
-                    <select>
+                <li><strong>맵</strong>
+                    <select name="none" onchange="window.open(value,'_blank');">
+                        
                         <optgroup label="주류">
-                            <option>스플릿</option>
-                            <option>바인드</option>
-                            <option>헤이븐</option>
-                            <option>어센트</option>
-                            <option>아이스박스</option>
-                            <option>펄</option>
-                            <option>로터스</option>
+                            <option value="Split.html">스플릿</option>
+                            <option value="Bind.html">바인드</option>
+                            <option value="Haven.html">헤이븐</option>
+                            <option value="Ascent.html">어센트</option>
+                            <option value="Icebox.html">아이스박스</option>
+                            <option value="Pearl.html">펄</option>
+                            <option value="Lotus.html">로터스</option>
                         </optgroup>
+
                         <optgroup label="비주류">
-                            <option>브리즈</option>
-                            <option>프랙처</option>
-                            <option>선셋</option>
+                            <option value="Breeze.html">브리즈</option>
+                            <option value="Fracture.html">프랙처</option>
+                            <option value="Sunset.html">선셋</option>
                         </optgroup>
+
                         <optgroup label="팀 데스매치 맵">
-                            <option>
-                            </option> 
+                            <option value="Piazza.html">피아자</option>
+                            <option value="District.html">디스트릭트</option> 
+                            <option value="Kasbah">카즈바</option>
                         </optgroup>
+
                         <optgroup label="사격장">
-                            <option>
-                                사격장
-                            </option> 
+                            <option value="사격장.html">사격장</option>
                         </optgroup>
+
                     </select>
                 </li>
-                 <li>비디오<select>
-                    <option>이제 여기 들어가면 매드무비 나올거임</option> 
-                 </select></li>
-                 <li>소셜미디어<select>
-                    <option></option> 
-                 </select></li>
+                 <li>
+                    <strong>비디오</strong>
+                    <select>
+                        <option>이제 여기 들어가면 매드무비 나올거임</option> 
+                    </select>
+                </li>
+                 <li><strong>소셜미디어</strong>
+                    <select>
+                    <option>대체 왜 ...</option> 
+                    </select>
+                </li>
             </ul>
         </nav>
+    </div>
+    <div class="div2">
+        이녀석입니다.
     </div>
 </body>
 </html>
